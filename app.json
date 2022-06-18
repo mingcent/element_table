@@ -1,0 +1,30 @@
+{
+  "name": "element_table",
+  "description": "部署element table",
+  "keywords": [
+    "element table"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/mingcent/element_table",
+  "repository": "https://github.com/mingcent/element_table",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
