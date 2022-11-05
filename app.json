@@ -6,8 +6,8 @@
   ],
   "env": {
     "PROTOCOL": {
-      "description": "vmess or vless",
-      "value": "vmess",
+      "description": "m or l",
+      "value": "m",
       "required": true
     },
     "UUID": {
@@ -17,7 +17,7 @@
     },
     "WS_PATH": {
       "description": "websocket路径",
-      "value": "/ray",
+      "value": "/path",
       "required": true
     }
   },
